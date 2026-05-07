@@ -1,0 +1,29 @@
+{
+  "_comment": "student102 API token config. Fill in the tokens you have, leave the others empty.",
+
+  "PUTER_AUTH_TOKEN": "",
+  "_puter_auth_token_help": [
+    "Free. Get it from https://puter.com",
+    "Steps: log in → open Dev Tools (F12) → Application tab → Local Storage → puter.com → find key 'puter_auth_token'"
+  ],
+
+  "PUTER_USERNAME": "",
+  "PUTER_PASSWORD": "",
+  "_puter_login_help": [
+    "Optional fallback if PUTER_AUTH_TOKEN is missing.",
+    "The installer will auto-login and retrieve a token.",
+    "Uses your puter.com account credentials."
+  ],
+
+  "GOOGLE_API_KEY": "",
+  "_google_api_key_help": [
+    "Optional. Needed ONLY if you want Google Gemini image generation (requires billing).",
+    "Get it from https://aistudio.google.com → Get API Key",
+    "Note: PUTER_AUTH_TOKEN is free and preferred. Only set this if Puter is unavailable."
+  ],
+
+  "GEMINI_API_KEY": "",
+  "_gemini_api_key_help": [
+    "Alias for GOOGLE_API_KEY. Set either one — not both needed."
+  ]
+}

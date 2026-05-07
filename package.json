@@ -1,0 +1,22 @@
+{
+  "name": "student102",
+  "version": "1.0.0",
+  "description": "Claude Code skill: add one interactive lesson to an HTML study guide per call",
+  "bin": {
+    "student102": "./bin/install.js"
+  },
+  "scripts": {
+    "install-skill": "node ./bin/install.js"
+  },
+  "keywords": ["claude-code", "skill", "study-guide", "html", "interactive", "education"],
+  "author": "Salazar394",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Salazar394/student102.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}

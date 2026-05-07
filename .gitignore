@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Never commit real tokens
+student102.config.json
+*.config.local.json
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
